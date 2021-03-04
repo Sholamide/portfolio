@@ -35,7 +35,7 @@ export const ProjectContent = styled.div`
   justify-content: center;
   align-items: center;
   padding: 8px 8px;
-
+  margin-top: 20px;
   @media screen and (max-width: 768px) {
     padding: 100px;
   }

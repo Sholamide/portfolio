@@ -23,7 +23,7 @@ export const SkillParagraph = styled.p`
   color: #f3f3f3;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 15px;
 `;
 export const SkillGrid = styled.div`
   display: grid;
