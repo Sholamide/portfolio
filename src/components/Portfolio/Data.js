@@ -4,61 +4,57 @@ export const projectPortfolio = {
   projectStatus: "in progress",
   projectStack: [{ name: "React" }, { name: "styled-components" }],
   alt: "portfolio",
-  projectDescription:
-    "Multiply midst very made divide Creepeth subdue said hath moving, creepeth. Signs replenish moved lights have. Every divide seed spirit all. Creeping third. Appear you under replenish give over one.",
+  projectDescription: "My portfolio website.",
 };
-export const projectDjangTurf = {
+export const projectDjangoblog = {
   projectImg: require("../../images/djangoturf.png").default,
-  projectTitle: "Djangturf",
+  projectTitle: "Django blog",
   projectStatus: "in progress",
   alt: "Django",
-  projectDescription:
-    "So can't, is. Under first moved waters spirit meat behold they're open years. Fruitful were Made land, face wherein can't him itself under the seas days. It beast place. Land.",
+  projectDescription: "A Django blog app.",
 };
 export const projectNextShop = {
   projectImg: require("../../images/nextshop.png").default,
   projectTitle: "Nextjs E-commerce",
   projectStatus: "in progress",
   alt: "nextshop",
-  projectDescription:
-    "Creeping under. Lesser image and can't have subdue two i isn't. Bring signs them beast which likeness, thing beast won't.",
+  projectDescription: "A NextJS Ecommerce web application.",
 };
-export const projectBrezzident = {
-  projectImg: require("../../images/brezident.png").default,
-  projectTitle: "Brezzident",
+export const projectTips = {
+  projectImg: require("../../images/comingsoon.png").default,
+  projectTitle: "Tipdrops",
   projectStatus: "in progress",
   alt: "brezident",
-  projectDescription:
-    "Fill face creepeth life to. Have cattle, creepeth night, divide under called creeping. Days there fruitful behold midst saw Can't.",
+  projectDescription: "A sports tipping app.",
 };
 
 export const projectCryptrack = {
-  projectImg: require("../../images/brezident.png").default,
-  projectTitle: "Brezzident",
+  projectImg: require("../../images/comingsoon.png").default,
+  projectTitle: "Crypto App",
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Crypto-currency tracker.",
 };
 
 export const projectBlogats = {
-  projectImg: require("../../images/brezident.png").default,
-  projectTitle: "Brezzident",
+  projectImg: require("../../images/comingsoon.png").default,
+  projectTitle: "Gatsby Blog App",
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Blog app built with gatsby.",
 };
 
 export const projectReactzon = {
-  projectImg: require("../../images/brezident.png").default,
-  projectTitle: "Brezzident",
+  projectImg: require("../../images/comingsoon.png").default,
+  projectTitle: "Amazon Clone",
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Amazon app clone.",
 };
 
 export const projectNetflixt = {
-  projectImg: require("../../images/brezident.png").default,
-  projectTitle: "Brezzident",
+  projectImg: require("../../images/comingsoon.png").default,
+  projectTitle: "Netflix Clone",
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Amazon app clone.",

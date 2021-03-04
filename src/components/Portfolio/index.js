@@ -5,9 +5,13 @@ import Image from "../../images/gatsby.svg";
 import Django from "../../images/django.png";
 import {
   projectPortfolio,
-  projectDjangTurf,
+  projectDjangoblog,
   projectNextShop,
-  projectBrezzident,
+  projectTips,
+  projectCryptrack,
+  projectReactzon,
+  projectNetflixt,
+  projectBlogats,
 } from "./Data";
 
 import {
@@ -52,8 +56,12 @@ const CarouselContent = ({
 const items = [
   <CarouselContent {...projectPortfolio} onDragStart={handleDragStart} />,
   <CarouselContent {...projectNextShop} onDragStart={handleDragStart} />,
-  <CarouselContent {...projectDjangTurf} onDragStart={handleDragStart} />,
-  <CarouselContent {...projectBrezzident} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectDjangoblog} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectCryptrack} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectNetflixt} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectReactzon} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectTips} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectBlogats} onDragStart={handleDragStart} />,
 ];
 
 const PortfolioSection = () => {
