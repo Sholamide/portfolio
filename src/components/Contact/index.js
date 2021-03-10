@@ -89,7 +89,7 @@ const ContactSection = () => {
         </ContactText>
 
         <ContactInfoWrapper>
-          <a style={{ "text-decoration": "none" }} href="tel:+234-90-1900-8187">
+          <a style={{ textDecoration: "none" }} href="tel:+234-90-1900-8187">
             <ContactInfoNumber>
               <IoMdCall /> +2349019008187
             </ContactInfoNumber>

@@ -25,6 +25,10 @@ export const PortfolioWrapper = styled.div`
   @media screen and (mmax-width: 768px) {
     padding: 8px 24px;
   }
+
+  @media screen and (mmax-width: 460px) {
+    padding: 8px 24px;
+  }
 `;
 
 export const ProjectContent = styled.div`
@@ -37,6 +41,9 @@ export const ProjectContent = styled.div`
   padding: 8px 8px;
   margin-top: 20px;
   @media screen and (max-width: 768px) {
+    padding: 100px;
+  }
+  @media screen and (max-width: 460px) {
     padding: 100px;
   }
 `;

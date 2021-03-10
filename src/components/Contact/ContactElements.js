@@ -6,6 +6,10 @@ export const ContactContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 8px 24px;
   }
+
+  @media screen and (max-width: 460px) {
+    padding: 10px;
+  }
 `;
 
 export const ContactWrapper = styled.div`
@@ -48,7 +52,8 @@ export const ContactInfoNumber = styled.h1`
   font-size: 14px;
   color: #f3f3f3f3;
   display: flex;
-  text-decoration: none;
+  text-text-decoration: none;
+
   background: #283747;
   padding: 8px 24px;
   border-radius: 5px;
