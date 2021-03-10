@@ -98,6 +98,7 @@ export const SocialMediaLogo = styled(Link)`
 export const WebsiteRights = styled.small`
   color: #f3f3f3;
   margin-bottom: 16px;
+  justify-content: center;
   @media screen and (max-width: 768px) {
     margin-top: 10px;
   }
