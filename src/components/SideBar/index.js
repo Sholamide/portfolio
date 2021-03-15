@@ -18,8 +18,7 @@ const SideBar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about">About Me</SidebarLink>{" "}
-          {/* <SidebarLink to="blog">Blog</SidebarLink> */}
+          <SidebarLink to="about">About Me</SidebarLink>
           <SidebarLink to="portfolio">Portfolio</SidebarLink>
           <SidebarLink to="skill">Skills</SidebarLink>
           <SideBtnWrap>

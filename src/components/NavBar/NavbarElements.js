@@ -1,32 +1,11 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-//pallette1
-// #DE354C
-// #932432
-// #3c1874
-// #283747
-// #f3f3f3
-
-//pallette2
-//#12232E
-//#007cc7
-//#4da8da
-//#203647
-//#eefbfb
-
-//Settler
-//#202020
-// #3f3f3f
-// #707070
-//#ffdfdc
-//#ffffff
 
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
   display: flex;
-  /* margin-top: -80px; */
   justify-content: center;
   align-items: center;
   font-size: 1rem;
@@ -34,7 +13,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
 
-  @media screen and (max-diwth: 960px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
 `;
@@ -104,14 +83,12 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   cursor: pointer;
   height: 100%;
-  /* font-weight: bold; */
 
   &:active {
     border-bottom: 3px solid #800000;
   }
 
   &:hover {
-    /* background: #283747; */
     color: #800080;
   }
 `;

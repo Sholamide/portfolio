@@ -30,50 +30,6 @@ const FooterSection = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLinksContainer>
-          {/* <FooterLinksWrapper>
-            <FooterLinkitems>
-              <FooterLinksTitle>Recents</FooterLinksTitle>
-              <FooterLink to="/">
-                <span>&#183;</span> Maximizing productivity
-              </FooterLink>
-              <FooterLink to="/">
-                <span>&#183;</span> Is it okay to procrastinate?
-              </FooterLink>
-              <FooterLink to="/">
-                <span>&#183;</span> Why it took so long to get here
-              </FooterLink>
-            </FooterLinkitems>
-            <FooterLinkitems>
-              <FooterLinksTitle>Interests</FooterLinksTitle>
-              <FooterLink to="/">
-                <span>&#183;</span> Surfing Instagram
-              </FooterLink>
-              <FooterLink to="/">
-                <span>&#183;</span> Playing Video games
-              </FooterLink>
-              <FooterLink to="/">
-                <span>&#183;</span> Brain-storming
-              </FooterLink>
-            </FooterLinkitems>
-            <FooterLinkitems>
-              <FooterLinksTitle>Socials</FooterLinksTitle>
-              <FooterLink to="https://web.facebook.com/olarotz">
-                Facebook
-              </FooterLink>
-              <FooterLink to="https://www.instagram.com/o_l_a_m_i_d_e/">
-                Instagram
-              </FooterLink>
-              <FooterLink to="https://twitter.com/lordolamider">
-                Twitter
-              </FooterLink>
-              <FooterLink to="https://github.com/Sholamide">Github</FooterLink>
-              <FooterLink to="https://www.linkedin.com/in/sholuade-olamide-148159174/">
-                Linkedin
-              </FooterLink>
-            </FooterLinkitems>
-          </FooterLinksWrapper> */}
-        </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialMediaLogo to="/" onClick={toggleHome}>

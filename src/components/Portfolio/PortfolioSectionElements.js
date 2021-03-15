@@ -3,13 +3,6 @@ import styled from "styled-components";
 export const PortfolioContainer = styled.div`
   color: #f3f3f3;
   background: #000;
-  /* border: 1px solid #fff; */
-
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-    justify-content: center;
-    align-items: center;
-  }
 `;
 
 export const PortfolioWrapper = styled.div`
@@ -22,11 +15,11 @@ export const PortfolioWrapper = styled.div`
   align-items: center;
   padding: 0 24px;
 
-  @media screen and (mmax-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 8px 24px;
   }
 
-  @media screen and (mmax-width: 460px) {
+  @media screen and (max-width: 460px) {
     padding: 8px 24px;
   }
 `;
@@ -75,7 +68,9 @@ export const ProjectHeaderImage = styled.img`
   margin-bottom: 25px;
 
   @media screen and (max-width: 568px) {
-    height: 90px;
+    /* height: 90px;
+    width: 200px; */
+    margin: auto;
   }
 `;
 

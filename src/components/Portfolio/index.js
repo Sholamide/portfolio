@@ -1,8 +1,6 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import Image from "../../images/gatsby.svg";
-import Django from "../../images/django.png";
 import {
   projectPortfolio,
   projectDjangoblog,
@@ -25,16 +23,13 @@ import {
   ProjectTitle,
 } from "./PortfolioSectionElements";
 const handleDragStart = (e) => e.preventDefault();
-const Imagee = require("../../images/gatsby.svg");
 
 const responsive = {
   0: { items: 1 },
-  568: { items: 2 },
+  480: { items: 1 },
+  568: { items: 1 },
+  768: { items: 2 },
   1024: { items: 3 },
-};
-
-const truth = () => {
-  console.log("Testing");
 };
 
 const CarouselContent = ({

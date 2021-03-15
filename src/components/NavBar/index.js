@@ -55,18 +55,6 @@ const NavBar = ({ toggle }) => {
                 About Me
               </NavLinks>
             </NavItems>
-            {/* <NavItems>
-              <NavLinks
-                to="blog"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Blog
-              </NavLinks>
-            </NavItems> */}
             <NavItems>
               <NavLinks
                 to="portfolio"

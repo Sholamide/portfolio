@@ -85,7 +85,7 @@ const ContactSection = () => {
         <ContactHeader>Contact me</ContactHeader>
         <ContactText>
           If you'ld like to work with me, maybe on a project or hire me, please
-          don't hesisate to get in touch with me using the contact form below.{" "}
+          don't hesitate to get in touch with me using the contact form below.{" "}
         </ContactText>
 
         <ContactInfoWrapper>

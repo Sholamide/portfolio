@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const ContactContainer = styled.div`
   background: #fff;
 
@@ -8,7 +7,7 @@ export const ContactContainer = styled.div`
   }
 
   @media screen and (max-width: 460px) {
-    padding: 10px;
+    padding: 8px 24px;
   }
 `;
 
@@ -19,9 +18,15 @@ export const ContactWrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   height: auto;
-  padding: 8px 8px;
   flex-direction: column;
   margin: auto;
+  @media screen and (max-width: 768px) {
+    padding: 8px 24px;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 8px 24px;
+  }
 `;
 
 export const ContactHeader = styled.h1`
@@ -34,12 +39,29 @@ export const ContactHeader = styled.h1`
 
   text-transform: uppercase;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 export const ContactText = styled.p`
   font-size: 18px;
   color: #000;
-  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 460px) {
+    font-size: 18px;
+  }
 `;
 
 export const ContactInfoWrapper = styled.div`
@@ -67,6 +89,13 @@ export const InputWrapper = styled.div`
   justify-content: center;
   align-items: center;
   max-width: 1100px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 460px) {
+    flex-direction: column;
+  }
 `;
 
 export const ResponseMessage = styled.p`
@@ -158,7 +187,7 @@ export const MessageInput = styled.textarea.attrs((props) => ({
     padding: 20px;
   }
   @media screen and (max-width: 768px) {
-    width: 400px;
+    width: 300px;
     justify-content: center;
   }
 `;
