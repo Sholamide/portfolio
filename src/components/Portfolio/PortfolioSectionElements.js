@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const PortfolioContainer = styled.div`
@@ -77,6 +78,19 @@ export const ProjectHeaderImage = styled.img`
 export const ProjectTitle = styled.h2`
   color: #f3f3f3;
   font-size: 18px;
+`;
+
+export const ProjectUrl = styled.a`
+  color: #0198e1;
+  font-size: 12px;
+  font-weight: bold;
+  width: auto;
+  max-width: 100px;
+  text-decoration: none;
+  text-align: left;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
 `;
 
 export const ProjectStatus = styled.h5`

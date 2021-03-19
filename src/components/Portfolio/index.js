@@ -4,8 +4,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import {
   projectPortfolio,
   projectDjangoblog,
-  projectNextShop,
-  projectTips,
+  projectNextBlog,
   projectCryptrack,
   projectReactzon,
   projectNetflixt,
@@ -21,6 +20,7 @@ import {
   ProjectHeaderImage,
   ProjectStatus,
   ProjectTitle,
+  ProjectUrl,
 } from "./PortfolioSectionElements";
 const handleDragStart = (e) => e.preventDefault();
 
@@ -37,6 +37,7 @@ const CarouselContent = ({
   projectTitle,
   projectDescription,
   projectStatus,
+  projectLink,
   alt,
 }) => {
   return (
@@ -45,17 +46,19 @@ const CarouselContent = ({
       <ProjectTitle>{projectTitle}</ProjectTitle>
       <ProjectDescription>{projectDescription}</ProjectDescription>
       <ProjectStatus>{projectStatus}</ProjectStatus>
+      <ProjectUrl target="_blank" href={`https://${projectLink}`}>
+        {projectLink}
+      </ProjectUrl>
     </ProjectContent>
   );
 };
 const items = [
   <CarouselContent {...projectPortfolio} onDragStart={handleDragStart} />,
-  <CarouselContent {...projectNextShop} onDragStart={handleDragStart} />,
+  <CarouselContent {...projectNextBlog} onDragStart={handleDragStart} />,
   <CarouselContent {...projectDjangoblog} onDragStart={handleDragStart} />,
   <CarouselContent {...projectCryptrack} onDragStart={handleDragStart} />,
   <CarouselContent {...projectNetflixt} onDragStart={handleDragStart} />,
   <CarouselContent {...projectReactzon} onDragStart={handleDragStart} />,
-  <CarouselContent {...projectTips} onDragStart={handleDragStart} />,
   <CarouselContent {...projectBlogats} onDragStart={handleDragStart} />,
 ];
 

@@ -2,9 +2,9 @@ export const projectPortfolio = {
   projectImg: require("../../images/portfolio.png").default,
   projectTitle: "Portfolio",
   projectStatus: "in progress",
-  projectStack: [{ name: "React" }, { name: "styled-components" }],
   alt: "portfolio",
   projectDescription: "My portfolio website.",
+  projectLink: "portfoliol.vercel.app",
 };
 export const projectDjangoblog = {
   projectImg: require("../../images/djangoturf.png").default,
@@ -12,20 +12,24 @@ export const projectDjangoblog = {
   projectStatus: "in progress",
   alt: "Django",
   projectDescription: "A Django blog app.",
+  projectLink: "coming soon",
 };
 export const projectNextShop = {
   projectImg: require("../../images/nextshop.png").default,
   projectTitle: "Nextjs E-commerce",
   projectStatus: "in progress",
   alt: "nextshop",
-  projectDescription: "A NextJS Ecommerce web application.",
+  projectDescription: "A NextJS Textile E-commerce Web Application.",
+  projectLink: "comingsoon.com",
 };
-export const projectTips = {
+export const projectNextBlog = {
   projectImg: require("../../images/comingsoon.png").default,
-  projectTitle: "Tipdrops",
+  projectTitle: "NextBlog",
   projectStatus: "in progress",
   alt: "brezident",
-  projectDescription: "A sports tipping app.",
+  projectDescription:
+    "A simple blog built using nextJS, adding modern feautures as i go.",
+  projectLink: "blogl.vercel.app",
 };
 
 export const projectCryptrack = {
@@ -34,6 +38,7 @@ export const projectCryptrack = {
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Crypto-currency tracker.",
+  projectLink: "comingsoon.com",
 };
 
 export const projectBlogats = {
@@ -42,6 +47,7 @@ export const projectBlogats = {
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Blog app built with gatsby.",
+  projectLink: "comingsoon.com",
 };
 
 export const projectReactzon = {
@@ -50,6 +56,7 @@ export const projectReactzon = {
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Amazon app clone.",
+  projectLink: "comingsoon.com",
 };
 
 export const projectNetflixt = {
@@ -58,4 +65,5 @@ export const projectNetflixt = {
   projectStatus: "in progress",
   alt: "brezident",
   projectDescription: "Amazon app clone.",
+  projectLink: "comingsoon.com",
 };
