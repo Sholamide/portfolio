@@ -14,20 +14,21 @@ export const PortfolioWrapper = styled.div`
   color: #000000;
   justify-content: center;
   align-items: center;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 
+  /*
   @media screen and (max-width: 768px) {
     padding: 8px 24px;
   }
 
   @media screen and (max-width: 460px) {
     padding: 8px 24px;
-  }
+  } */
 `;
 
 export const ProjectContent = styled.div`
   height: auto;
-  width: 260px;
+  width: auto;
   background: #000;
   border-radius: 50px;
   justify-content: center;

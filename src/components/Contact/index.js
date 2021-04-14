@@ -84,8 +84,8 @@ const ContactSection = () => {
       <ContactWrapper>
         <ContactHeader>Contact me</ContactHeader>
         <ContactText>
-          If you'ld like to work with me, maybe on a project or hire me, please
-          don't hesitate to get in touch with me using the contact form below.{" "}
+          Contact me for feedbacks(maybe on this website), or if you'll like to
+          work on a cool project together.
         </ContactText>
 
         <ContactInfoWrapper>
@@ -146,11 +146,6 @@ const ContactSection = () => {
                 {serverState.status.msg}
               </ResponseMessage>
             )}
-            {/* {serverState.status && (
-              <p className={!serverState.status.ok ? "errorMsg" : ""}>
-                {serverState.status.msg}
-              </p>
-            )} */}
           </SendButtonWrapper>
         </form>
       </ContactWrapper>
@@ -159,3 +154,10 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+{
+  /* {serverState.status && (
+              <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                {serverState.status.msg}
+              </p>
+            )} */
+}

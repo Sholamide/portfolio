@@ -20,12 +20,13 @@ export const ContactWrapper = styled.div`
   height: auto;
   flex-direction: column;
   margin: auto;
+
   @media screen and (max-width: 768px) {
-    padding: 8px 24px;
+    padding: 8px 8px;
   }
 
   @media screen and (max-width: 460px) {
-    padding: 8px 24px;
+    padding: 0px 8px;
   }
 `;
 
@@ -56,11 +57,11 @@ export const ContactText = styled.p`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   @media screen and (max-width: 460px) {
-    font-size: 18px;
+    font-size: 12px;
   }
 `;
 
