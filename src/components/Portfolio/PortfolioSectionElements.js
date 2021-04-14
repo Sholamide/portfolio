@@ -51,6 +51,7 @@ export const PortfolioHeader = styled.h1`
   text-transform: uppercase;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   @media screen and (max-width: 768px) {

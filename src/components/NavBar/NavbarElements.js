@@ -41,6 +41,7 @@ export const NavLogo = styled(LinkR)`
   text-decoration: none;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 

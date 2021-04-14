@@ -15,7 +15,7 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 
-import MobileNav from "../MobileNav";
+// import MobileNav from "../MobileNav";
 import { animateScroll as scroll } from "react-scroll";
 
 const NavBar = ({ toggle }) => {
