@@ -1,13 +1,13 @@
 export const projectPortfolio = {
-  projectImg: require("../../images/portfolio.png").default,
+  projectImg: require("../images/portfolio.png").default,
   projectTitle: "Portfolio",
   projectStatus: "in progress",
   alt: "portfolio",
   projectDescription: "My portfolio website.",
-  projectLink: "portfoliol.vercel.app",
+  projectLink: "olamide.dev",
 };
 export const projectDjangoblog = {
-  projectImg: require("../../images/djangoturf.png").default,
+  projectImg: require("../images/djangoturf.png").default,
   projectTitle: "Django blog",
   projectStatus: "in progress",
   alt: "Django",
@@ -15,7 +15,7 @@ export const projectDjangoblog = {
   projectLink: "coming soon",
 };
 export const projectNextShop = {
-  projectImg: require("../../images/nextshop.png").default,
+  projectImg: require("../images/nextshop.png").default,
   projectTitle: "Nextjs E-commerce",
   projectStatus: "in progress",
   alt: "nextshop",
@@ -23,7 +23,7 @@ export const projectNextShop = {
   projectLink: "comingsoon.com",
 };
 export const projectNextBlog = {
-  projectImg: require("../../images/comingsoon.png").default,
+  projectImg: require("../images/comingsoon.png").default,
   projectTitle: "NextBlog",
   projectStatus: "in progress",
   alt: "brezident",
@@ -33,7 +33,7 @@ export const projectNextBlog = {
 };
 
 export const projectCryptrack = {
-  projectImg: require("../../images/comingsoon.png").default,
+  projectImg: require("../images/comingsoon.png").default,
   projectTitle: "Crypto App",
   projectStatus: "in progress",
   alt: "brezident",
@@ -42,7 +42,7 @@ export const projectCryptrack = {
 };
 
 export const projectBlogats = {
-  projectImg: require("../../images/comingsoon.png").default,
+  projectImg: require("../images/comingsoon.png").default,
   projectTitle: "Gatsby Blog App",
   projectStatus: "in progress",
   alt: "brezident",
@@ -51,7 +51,7 @@ export const projectBlogats = {
 };
 
 export const projectReactzon = {
-  projectImg: require("../../images/comingsoon.png").default,
+  projectImg: require("../images/comingsoon.png").default,
   projectTitle: "Amazon Clone",
   projectStatus: "in progress",
   alt: "brezident",
@@ -60,7 +60,7 @@ export const projectReactzon = {
 };
 
 export const projectNetflixt = {
-  projectImg: require("../../images/comingsoon.png").default,
+  projectImg: require("../images/comingsoon.png").default,
   projectTitle: "Netflix Clone",
   projectStatus: "in progress",
   alt: "brezident",

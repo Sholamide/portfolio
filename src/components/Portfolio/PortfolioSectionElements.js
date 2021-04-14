@@ -36,10 +36,10 @@ export const ProjectContent = styled.div`
   padding: 8px 8px;
   margin-top: 20px;
   @media screen and (max-width: 768px) {
-    /* padding: 100px; */
+    padding: 0px 100px;
   }
   @media screen and (max-width: 460px) {
-    /* padding: 100px; */
+    padding: 0px 100px;
   }
 `;
 
@@ -78,12 +78,20 @@ export const ProjectHeaderImage = styled.img`
 
 export const ProjectTitle = styled.h2`
   color: #f3f3f3;
-  font-size: 18px;
+  font-size: 24px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 export const ProjectUrl = styled.a`
   color: #0198e1;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   width: auto;
   max-width: 100px;
@@ -92,6 +100,13 @@ export const ProjectUrl = styled.a`
   border-radius: 50px;
   padding: 5px;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 export const ProjectStatus = styled.h5`
@@ -113,7 +128,14 @@ export const ProjectStatus = styled.h5`
 
 export const ProjectDescription = styled.p`
   color: #f3f3f3;
-  font-size: 14px;
+  font-size: 18px;
   max-width: 250px;
   text-align: left;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `;

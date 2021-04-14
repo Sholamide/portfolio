@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DiSwift } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
+
 import {
   Nav,
   NavbarContainer,
@@ -10,8 +11,11 @@ import {
   NavItems,
   NavLinks,
   NavBtn,
+  NavResumeLink,
   NavBtnLink,
 } from "./NavbarElements";
+
+import MobileNav from "../MobileNav";
 import { animateScroll as scroll } from "react-scroll";
 
 const NavBar = ({ toggle }) => {
@@ -79,9 +83,49 @@ const NavBar = ({ toggle }) => {
                 Skills
               </NavLinks>
             </NavItems>
+            <NavItems>
+              <NavLinks
+                to=""
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                CV Builder
+              </NavLinks>
+            </NavItems>
+            <NavItems>
+              <NavLinks
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                Contact Me
+              </NavLinks>
+            </NavItems>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink
+            <form
+              method="get"
+              action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
+            >
+              <NavResumeLink
+                type="submit"
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                DOWNLOAD CV
+              </NavResumeLink>
+            </form>
+            {/* <NavBtnLink
               to="contact"
               smooth={true}
               duration={500}
@@ -90,8 +134,9 @@ const NavBar = ({ toggle }) => {
               offset={-80}
             >
               Contact Me
-            </NavBtnLink>
+            </NavBtnLink> */}
           </NavBtn>
+          {/* <MobileNav /> */}
         </NavbarContainer>
       </Nav>
     </>

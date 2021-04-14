@@ -9,7 +9,7 @@ import {
   projectReactzon,
   projectNetflixt,
   projectBlogats,
-} from "./Data";
+} from "../../data/portfolioData";
 
 import {
   PortfolioContainer,

@@ -22,14 +22,14 @@ const HeroSection = () => {
         <HeroBlock2>
           <HeroIntro>Hey, I'm Sholuade Olamide.</HeroIntro>
           <HeroP>
-            {" "}
             I am a developer who currently interns at EHA Clinics as a Software
-            engineer. I always strive to outperform the task that I've been
+            Engineer. I practice software development and enjoy building fun
+            stuffs. I always strive to outperform the task that I've been
             assigned to and I like challenges that question by abilities. In my
-            free time, i play candy crush, surf instagram for funny content that
-            can distract my mind from too much tech stuff. I like partying and
-            having fun too. Sometimes you can just catch me studying libraries,
-            and other stuffs to make me better at software development.
+            free time, i play video games, (Apex Legends still my favorite),
+            candy crush, surf instagram for funny content that can distract my
+            mind from too much tech stuff. I also like studying codes, and other
+            stuffs to make me better at software development.
           </HeroP>
         </HeroBlock2>
       </HeroContent>

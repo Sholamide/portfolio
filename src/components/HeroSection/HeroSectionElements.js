@@ -106,10 +106,10 @@ export const HeroP = styled.p`
   text-align: left;
 
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;

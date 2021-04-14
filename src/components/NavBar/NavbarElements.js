@@ -103,23 +103,46 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkS)`
-  border-radius: 50px;
-  background: #283747;
+// export const NavBtnLink = styled(LinkS)`
+//   border-radius: 5px;
+//   background: #000;
+//   white-space: nowrap;
+//   padding: 5px 8px;
+//   color: #f3f3f3;
+//   font-size: 12px;
+//   outline: none;
+//   border: 2px solid #8b0000;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+//   text-decoration: none;
+
+//   &:hover {
+//     transition: all 0.2s ease-in-out;
+//     background: #f3f3f3;
+//     color: #000;
+//     font-weight: 700;
+//   }
+// `;
+
+export const NavResumeLink = styled.button`
+  border-radius: 5px;
+  background: #000;
   white-space: nowrap;
-  padding: 10px 22px;
+  padding: 12px 8px;
   color: #f3f3f3;
-  font-size: 16px;
+  font-size: 12px;
   outline: none;
-  border: none;
+  border: 2px solid #8b0000;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  margin-right: 8px;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #f3f3f3;
-    color: #800080;
+    color: #000;
     font-weight: 700;
   }
 `;
