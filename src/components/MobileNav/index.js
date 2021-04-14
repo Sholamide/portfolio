@@ -18,14 +18,55 @@ const MobileNav = ({ navShow, toggle }) => {
       </Icon>
       <MobileNavWrapper>
         <MobileNavMenu>
-          <MobileNavLink to="about">About Me</MobileNavLink>
-          <MobileNavLink to="portfolio">Portfolio</MobileNavLink>
-          <MobileNavLink to="skill">Skills</MobileNavLink>
+          <MobileNavLink
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            About Me
+          </MobileNavLink>
+          <MobileNavLink
+            to="portfolio"
+            to="portfolio"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Portfolio
+          </MobileNavLink>
+          <MobileNavLink
+            to="skill"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Skills
+          </MobileNavLink>
           <MobileNavLink to="skill">CV Builder</MobileNavLink>
-          <MobileNavLink to="skill">Skills</MobileNavLink>
-          <MobileNavLink to="contact">Contact Me</MobileNavLink>
+          <MobileNavLink
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Contact Me
+          </MobileNavLink>
           <SideBtnWrap>
-            <MobileResumeRoute to="/">DOWNLOAD CV</MobileResumeRoute>
+            <form
+              method="get"
+              action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
+            >
+              <MobileResumeRoute>DOWNLOAD CV</MobileResumeRoute>
+            </form>
           </SideBtnWrap>
         </MobileNavMenu>
       </MobileNavWrapper>

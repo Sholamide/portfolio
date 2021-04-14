@@ -65,7 +65,7 @@ export const MobileNavLink = styled(LinkS)`
   cursor: pointer;
 
   &:hover {
-    color: #800080;
+    color: #8b0000;
     transition: 0.2s ease-in-out;
   }
 `;
@@ -92,7 +92,7 @@ export const MobileResumeRoute = styled.button`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #800080;
+    color: #8b0000;
     font-weight: bold;
   }
 `;

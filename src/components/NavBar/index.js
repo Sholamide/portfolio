@@ -113,17 +113,7 @@ const NavBar = ({ toggle }) => {
               method="get"
               action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
             >
-              <NavResumeLink
-                type="submit"
-                to="contact"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                DOWNLOAD CV
-              </NavResumeLink>
+              <NavResumeLink type="submit">DOWNLOAD CV</NavResumeLink>
             </form>
             {/* <NavBtnLink
               to="contact"
