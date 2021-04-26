@@ -69,11 +69,41 @@ export const MobileNavLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
   }
 `;
+export const MobileNavLinkR = styled(LinkR)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    color: #8b0000;
+    transition: 0.2s ease-in-out;
+  }
+`;
 
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
 `;
+
+export const NavBadge = styled.p` 
+display: flex;
+color: #fafafa;
+font-size: 10px;
+padding: 3px 4px;
+background: #8b0000;
+margin-top: -4px;
+margin-left: 7px;
+align-items: center;
+border-radius: 5px;
+font-weight: bold;
+
+`
 
 export const MobileResumeRoute = styled.button`
   border-radius: 5px;

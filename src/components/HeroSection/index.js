@@ -20,7 +20,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroBlock2>
-          <HeroIntro>Hey, I'm Sholuade Olamide.</HeroIntro>
+          <HeroIntro>Hey, I'm Olamide.</HeroIntro>
           <HeroP>
             I am a developer who currently interns at EHA Clinics as a Software
             Engineer. I practice software development and enjoy building fun

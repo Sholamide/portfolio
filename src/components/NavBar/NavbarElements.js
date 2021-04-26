@@ -93,6 +93,38 @@ export const NavLinks = styled(LinkS)`
     color: #800080;
   }
 `;
+export const NavLinkR = styled(LinkR)`
+  color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  height: 100%;
+
+  &:active {
+    border-bottom: 3px solid #800000;
+  }
+
+  &:hover {
+    color: #800080;
+  }
+`;
+
+
+
+export const NavBadge = styled.p`
+  display: flex;
+  color: #fafafa;
+  font-size: 10px;
+  padding: 3px 4px;
+  background: #8b0000;
+  margin-top: -4px;
+  margin-left: 7px;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+`;
 
 export const NavBtn = styled.nav`
   display: flex;

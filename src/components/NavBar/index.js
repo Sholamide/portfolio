@@ -8,8 +8,9 @@ import {
   NavLogo,
   MobileIcon,
   NavMenu,
+  NavBadge,
   NavItems,
-  NavLinks,
+  NavLinks, NavLinkR,
   NavBtn,
   NavResumeLink,
   NavBtnLink,
@@ -84,16 +85,10 @@ const NavBar = ({ toggle }) => {
               </NavLinks>
             </NavItems>
             <NavItems>
-              <NavLinks
-                to=""
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
+              <NavLinkR to="/signin"
               >
-                CV Builder
-              </NavLinks>
+                CV Builder <NavBadge>NEW</NavBadge>
+              </NavLinkR>
             </NavItems>
             <NavItems>
               <NavLinks

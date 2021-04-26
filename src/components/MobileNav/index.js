@@ -4,9 +4,11 @@ import {
   Icon,
   MobileNavContainer,
   MobileNavLink,
+  MobileNavLinkR,
   MobileNavMenu,
   MobileResumeRoute,
   MobileNavWrapper,
+  NavBadge,
   SideBtnWrap,
 } from "./MobileNavElements";
 
@@ -49,7 +51,9 @@ const MobileNav = ({ navShow, toggle }) => {
           >
             Skills
           </MobileNavLink>
-          <MobileNavLink to="skill">CV Builder</MobileNavLink>
+          <MobileNavLinkR to="/signin">
+            CV Builder<NavBadge>NEW</NavBadge>
+          </MobileNavLinkR>
           <MobileNavLink
             to="contact"
             smooth={true}
