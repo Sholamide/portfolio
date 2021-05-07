@@ -21,7 +21,8 @@ import {
   ProjectStatus,
   ProjectTitle,
   ProjectUrl,
-} from "./PortfolioSectionElements";
+  PortfolioSubLink,
+} from "./PortfolioComponents";
 const handleDragStart = (e) => e.preventDefault();
 
 const responsive = {
@@ -77,6 +78,7 @@ const PortfolioSection = () => {
           animationType="fadeout"
           responsive={responsive}
         />
+        <PortfolioSubLink to="/projects">View All</PortfolioSubLink>
       </PortfolioWrapper>
     </PortfolioContainer>
   );

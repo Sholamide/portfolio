@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 export const PortfolioContainer = styled.div`
   color: #f3f3f3;
@@ -54,6 +55,29 @@ export const PortfolioHeader = styled.h1`
   background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
+`;
+
+export const PortfolioSubLink = styled(LinkR)`
+  font-size: 16px;
+  margin-top: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  text-transform: uppercase;
+  background-color: #000;
+  padding: 20px 10px;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }

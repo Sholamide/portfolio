@@ -10,11 +10,12 @@ import {
   NavMenu,
   NavBadge,
   NavItems,
-  NavLinks, NavLinkR,
+  NavLinks,
+  NavLinkR,
   NavBtn,
   NavResumeLink,
   NavBtnLink,
-} from "./NavbarElements";
+} from "./NavbarComponents";
 
 // import MobileNav from "../MobileNav";
 import { animateScroll as scroll } from "react-scroll";
@@ -85,8 +86,7 @@ const NavBar = ({ toggle }) => {
               </NavLinks>
             </NavItems>
             <NavItems>
-              <NavLinkR to="/signin"
-              >
+              <NavLinkR to="/cvbuilder">
                 CV Builder <NavBadge>NEW</NavBadge>
               </NavLinkR>
             </NavItems>

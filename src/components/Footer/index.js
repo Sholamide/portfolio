@@ -13,7 +13,7 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconsLink,
-} from "./FooterElements";
+} from "./FooterComponents";
 import {
   FaFacebook,
   FaInstagram,

@@ -2,7 +2,7 @@ import { FormspreeProvider } from "@formspree/react";
 import React, { useState } from "react";
 import ContactSection from "../components/Contact";
 import FooterSection from "../components/Footer";
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../components/Hero";
 import NavBar from "../components/NavBar";
 import PortfolioSection from "../components/Portfolio";
 import MobileNav from "../components/MobileNav";

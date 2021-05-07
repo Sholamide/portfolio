@@ -10,7 +10,7 @@ import {
   MobileNavWrapper,
   NavBadge,
   SideBtnWrap,
-} from "./MobileNavElements";
+} from "./MobileNavComponents";
 
 const MobileNav = ({ navShow, toggle }) => {
   return (

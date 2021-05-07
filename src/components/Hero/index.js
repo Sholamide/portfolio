@@ -11,7 +11,7 @@ import {
   HeroP,
   VideoBg,
   HeroIntro,
-} from "./HeroSectionElements";
+} from "./HeroComponents";
 const HeroSection = () => {
   return (
     <HeroContainer id="about">
