@@ -26,7 +26,7 @@ const SkillSection = () => {
       <SkillWrapper>
         <SkillHeader>Skills</SkillHeader>
         <SkillParagraph>
-          You will find below, the stakcs i have practiced with so far.
+          You will find below, the stacks i have practiced with so far.
         </SkillParagraph>
         <SkillGrid>
           <SkillContent>
