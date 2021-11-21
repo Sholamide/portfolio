@@ -26,9 +26,7 @@ const SkillSection = () => {
       <SkillWrapper>
         <SkillHeader>Skills</SkillHeader>
         <SkillParagraph>
-          You will find below, some of the programming languages, softwares for
-          UI/UX, databases and every other tech stuffs i have used in my career
-          so far.{" "}
+          You will find below, the stakcs i have practiced with so far.
         </SkillParagraph>
         <SkillGrid>
           <SkillContent>
