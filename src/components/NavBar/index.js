@@ -43,7 +43,6 @@ const NavBar = ({ toggle }) => {
             <span style={{ marginRight: 5 }}>
               <DiSwift />
             </span>
-            Lordie
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -85,11 +84,11 @@ const NavBar = ({ toggle }) => {
                 Skills
               </NavLinks>
             </NavItems>
-            <NavItems>
+            {/* <NavItems>
               <NavLinkR to="/cvbuilder">
                 CV Builder <NavBadge>NEW</NavBadge>
               </NavLinkR>
-            </NavItems>
+            </NavItems> */}
             <NavItems>
               <NavLinks
                 to="contact"
@@ -108,20 +107,9 @@ const NavBar = ({ toggle }) => {
               method="get"
               action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
             >
-              <NavResumeLink type="submit">DOWNLOAD CV</NavResumeLink>
+              <NavResumeLink type="submit">RESUME</NavResumeLink>
             </form>
-            {/* <NavBtnLink
-              to="contact"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-80}
-            >
-              Contact Me
-            </NavBtnLink> */}
-          </NavBtn>
-          {/* <MobileNav /> */}
+          </NavBtn>    
         </NavbarContainer>
       </Nav>
     </>

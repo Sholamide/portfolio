@@ -32,9 +32,6 @@ const FooterSection = () => {
       <FooterWrapper>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialMediaLogo to="/" onClick={toggleHome}>
-              Lordie
-            </SocialMediaLogo>
             <WebsiteRights>
               Lordie © {new Date().getFullYear()} All rights reserved. Handfully
               crafted using React ⚛️ with ❤️
