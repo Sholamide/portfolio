@@ -1,5 +1,17 @@
 import styled from "styled-components";
-
+import {
+  SiPython,
+  SiDjango,
+  SiTypescript,
+  SiMongodb,
+  SiSolidity,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiFirebase,
+  SiReact,
+  SiJavascript,
+} from "react-icons/si";
+import { SiStyledcomponents, SiNodedotjs } from "react-icons/si";
 export const SkillContainer = styled.div`
   color: #f3f3f3;
   background: #000;
@@ -17,8 +29,8 @@ export const SkillWrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 768px){
-  padding: 0px 20px;
+  @media screen and (max-width: 768px) {
+    padding: 0px 20px;
   }
 `;
 
@@ -26,8 +38,8 @@ export const SkillParagraph = styled.p`
   font-size: 18px;
   color: #f3f3f3;
   text-align: center;
-  padding: 20px;
-  margin-top: 15px;
+  padding: 10px;
+  margin-top: 10px;
 `;
 export const SkillGrid = styled.div`
   display: grid;
@@ -47,6 +59,76 @@ export const SkillGrid = styled.div`
   }
 `;
 
+export const SKillTypescript = styled(SiTypescript)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillReact = styled(SiReact)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillPython = styled(SiPython)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillNodeJS = styled(SiNodedotjs)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillSolidity = styled(SiSolidity)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillNextJS = styled(SiNextdotjs)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillStyledComponents = styled(SiStyledcomponents)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillTailwindCSS = styled(SiTailwindcss)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillDjango = styled(SiDjango)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+export const SKillJavascript = styled(SiJavascript)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
+export const SKillFirebase = styled(SiFirebase)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+export const SKillMongoDB = styled(SiMongodb)`
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+`;
+
 export const SkillContent = styled.div`
   justify-content: center;
   align-items: center;
@@ -54,33 +136,22 @@ export const SkillContent = styled.div`
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
+  flex-direction: column;
 
-   @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 20px 20px;
-  } 
-`;
-
-export const SkillImage = styled.img`
-  width: 80px;
-  height: 50px;
-  align-self: center;
-  border-radius: 20px;
-
- @media screen and (max-width: 768px) {
-   height: 25px;
-    width: 25px;
-  } 
+  }
 `;
 
 export const SkillTitle = styled.h3`
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   color: #f3f3f3;
   margin-left: 10px;
   font-weight: bold;
 
-  @media screen and (max-width: 768px){
-    font-size: 14px;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
   }
 `;
 
@@ -88,8 +159,8 @@ export const SkillHeader = styled.h1`
   font-size: 32px;
   align-items: center;
   text-align: center;
-  margin: auto;
- 
+  margin-top: 20px;
+
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }

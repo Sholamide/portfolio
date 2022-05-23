@@ -2,22 +2,24 @@ import React from "react";
 import {
   SkillContainer,
   SkillContent,
+  SKillDjango,
+  SKillFirebase,
   SkillHeader,
-  SkillImage,
+  SKillJavascript,
+  SKillMongoDB,
+  SKillNextJS,
+  SKillNodeJS,
   SkillParagraph,
+  SKillPython,
+  SKillReact,
+  SKillSolidity,
+  SKillStyledComponents,
+  SKillTailwindCSS,
   SkillTitle,
+  SKillTypescript,
   SkillWrapper,
 } from "./SKillSectionElements";
-import Marquee from 'react-fast-marquee';
-import Java from "../../images/java.png";
-import Javascript from "../../images/js-1.jpeg";
-import mongoDB from "../../images/mongodb.png";
-import Firebase from "../../images/firebase.png";
-import Python from "../../images/python.jpeg";
-import nodeJS from "../../images/node.jpeg";
-import react from "../../images/react.png";
-import Django from "../../images/django.png";
-import Android from "../../images/android.png";
+import Marquee from "react-fast-marquee";
 
 const SkillSection = () => {
   return (
@@ -29,40 +31,52 @@ const SkillSection = () => {
         </SkillParagraph>
         <Marquee pauseOnHover gradient={false}>
           <SkillContent>
-            <SkillImage src={Python} />
-            <SkillTitle>Python</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={Javascript} />
-            <SkillTitle>Javascript</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={Java} />
-            <SkillTitle>Java</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={mongoDB} />
-            <SkillTitle>MongoDB</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={Firebase} />
-            <SkillTitle>Firebase</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={nodeJS} />
-            <SkillTitle>NodeJS</SkillTitle>
-          </SkillContent>
-          <SkillContent>
-            <SkillImage src={react} />
+            <SKillReact />
             <SkillTitle>React</SkillTitle>
           </SkillContent>
           <SkillContent>
-            <SkillImage src={Android} />
-            <SkillTitle>Android</SkillTitle>
+            <SKillNextJS />
+            <SkillTitle>NextJS</SkillTitle>
           </SkillContent>
           <SkillContent>
-            <SkillImage src={Django} />
+            <SKillTypescript />
+            <SkillTitle>TypeScript</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillPython />
+            <SkillTitle>Python</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillTailwindCSS />
+            <SkillTitle>Tailwind CSS</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillJavascript />
+            <SkillTitle>Javascript</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillNodeJS />
+            <SkillTitle>NodeJS</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillStyledComponents />
+            <SkillTitle>Styled Components</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillMongoDB />
+            <SkillTitle>MongoDB</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillFirebase />
+            <SkillTitle>Firebase</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillDjango />
             <SkillTitle>Django</SkillTitle>
+          </SkillContent>
+          <SkillContent>
+            <SKillSolidity />
+            <SkillTitle>Solidity</SkillTitle>
           </SkillContent>
         </Marquee>
       </SkillWrapper>
