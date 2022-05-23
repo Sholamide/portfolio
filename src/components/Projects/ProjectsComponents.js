@@ -1,23 +1,21 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
-export const PortfolioContainer = styled.div`
+export const ProjectsContainer = styled.div`
   color: #f3f3f3;
   background: #000;
 `;
 
-export const PortfolioWrapper = styled.div`
-  height: 600px;
+export const ProjectsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: auto;
   width: 100%;
   max-width: 1100px;
   margin: auto;
   color: #000000;
-  justify-content: center;
   align-items: center;
-  /* padding: 0 24px; */
 
-  /*
   @media screen and (max-width: 768px) {
     padding: 8px 24px;
   }
@@ -44,44 +42,37 @@ export const ProjectContent = styled.div`
   }
 `;
 
-export const PortfolioHeader = styled.h1`
+export const ProjectsHeader = styled.h1`
   font-size: 32px;
   align-items: center;
   text-align: center;
   margin: auto;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  color: #fff;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }
-
   @media screen and (max-width: 480px) {
     font-size: 16px;
   }
 `;
 
-export const PortfolioSubLink = styled(LinkR)`
+export const ProjectsSubLink = styled(LinkR)`
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 10px;
   text-decoration: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  border: 3px solid #fff;
-  border-radius: 15px;
-  text-transform: uppercase;
-  background-color: #000;
-  padding: 20px 10px;
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
+  font-weight: bold;
+  justify-content: flex-start;
+  // align-items: center;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background: white;
+  padding: 10px 10px;
 
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
   @media screen and (max-width: 480px) {
     font-size: 16px;
   }

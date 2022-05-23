@@ -2,12 +2,9 @@ import React from "react";
 import Video from "../../video/pattern.mp4";
 import {
   HeroBg,
-  HeroBlock,
   HeroContainer,
   HeroContent,
-  HeroBlock1,
   HeroBlock2,
-  HeroImage,
   HeroP,
   VideoBg,
   HeroIntro,

@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { FormspreeProvider } from "@formspree/react";
 
 ReactDOM.render(
   <React.StrictMode>

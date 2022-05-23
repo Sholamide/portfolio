@@ -8,13 +8,10 @@ import {
   NavLogo,
   MobileIcon,
   NavMenu,
-  NavBadge,
   NavItems,
   NavLinks,
-  NavLinkR,
   NavBtn,
   NavResumeLink,
-  NavBtnLink,
 } from "./NavbarComponents";
 
 // import MobileNav from "../MobileNav";
@@ -57,19 +54,19 @@ const NavBar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                About Me
+                About
               </NavLinks>
             </NavItems>
             <NavItems>
               <NavLinks
-                to="portfolio"
+                to="projects"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}
               >
-                Portfolio
+                Projects
               </NavLinks>
             </NavItems>
             <NavItems>

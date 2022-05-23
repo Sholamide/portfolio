@@ -10,12 +10,16 @@ export const SkillContainer = styled.div`
 `;
 
 export const SkillWrapper = styled.div`
-  height: 800px;
+  height: auto;
   width: 100%;
   max-width: 1100px;
   margin: auto;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 768px){
+  padding: 0px 20px;
+  }
 `;
 
 export const SkillParagraph = styled.p`
@@ -47,22 +51,25 @@ export const SkillContent = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
-  /* background: linear-gradient(45deg, #f3f3f3, #283747); */
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   display: flex;
-  filter: drop-shadow(0 0 1.75rem #800080);
 
-  /* @media screen and (max-width: 768px) {
-    padding: 50px 50px;
-  } */
+   @media screen and (max-width: 768px) {
+    padding: 20px 20px;
+  } 
 `;
 
 export const SkillImage = styled.img`
-  width: 50px;
+  width: 80px;
   height: 50px;
   align-self: center;
   border-radius: 20px;
+
+ @media screen and (max-width: 768px) {
+   height: 25px;
+    width: 25px;
+  } 
 `;
 
 export const SkillTitle = styled.h3`
@@ -71,6 +78,10 @@ export const SkillTitle = styled.h3`
   color: #f3f3f3;
   margin-left: 10px;
   font-weight: bold;
+
+  @media screen and (max-width: 768px){
+    font-size: 14px;
+  }
 `;
 
 export const SkillHeader = styled.h1`
@@ -78,11 +89,7 @@ export const SkillHeader = styled.h1`
   align-items: center;
   text-align: center;
   margin: auto;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+ 
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }

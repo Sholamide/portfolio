@@ -4,7 +4,7 @@ import ContactSection from "../components/Contact";
 import FooterSection from "../components/Footer";
 import HeroSection from "../components/Hero";
 import NavBar from "../components/NavBar";
-import PortfolioSection from "../components/Portfolio";
+import ProjectsSection from "../components/Projects";
 import MobileNav from "../components/MobileNav";
 import SkillSection from "../components/Skill";
 
@@ -20,7 +20,7 @@ const Home = () => {
         <MobileNav navShow={navShow} toggle={onToggeNav} />
         <NavBar toggle={onToggeNav} />
         <HeroSection />
-        <PortfolioSection />
+        <ProjectsSection />
         <SkillSection />
         <ContactSection />
         <FooterSection />

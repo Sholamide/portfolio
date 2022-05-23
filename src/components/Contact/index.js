@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import {
   ContactContainer,
   ContactHeader,
@@ -18,11 +18,9 @@ import { IoMdCall } from "react-icons/io";
 import { useForm, ValidationError } from "@formspree/react";
 import axios from "axios";
 
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
 
 const ContactSection = () => {
-  const [state, handleSubmit] = useForm("contactForm");
+  const [state] = useForm("contactForm");
 
   const [inputs, setInputs] = useState({
     name: "",
@@ -154,10 +152,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
-{
-  /* {serverState.status && (
-              <p className={!serverState.status.ok ? "errorMsg" : ""}>
-                {serverState.status.msg}
-              </p>
-            )} */
-}
+

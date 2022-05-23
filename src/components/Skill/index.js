@@ -1,15 +1,14 @@
 import React from "react";
 import {
-  SkillCarousel,
   SkillContainer,
   SkillContent,
-  SkillGrid,
   SkillHeader,
   SkillImage,
   SkillParagraph,
   SkillTitle,
   SkillWrapper,
 } from "./SKillSectionElements";
+import Marquee from 'react-fast-marquee';
 import Java from "../../images/java.png";
 import Javascript from "../../images/js-1.jpeg";
 import mongoDB from "../../images/mongodb.png";
@@ -28,7 +27,7 @@ const SkillSection = () => {
         <SkillParagraph>
           You will find below, the stacks i have practiced with so far.
         </SkillParagraph>
-        <SkillGrid>
+        <Marquee pauseOnHover gradient={false}>
           <SkillContent>
             <SkillImage src={Python} />
             <SkillTitle>Python</SkillTitle>
@@ -65,7 +64,7 @@ const SkillSection = () => {
             <SkillImage src={Django} />
             <SkillTitle>Django</SkillTitle>
           </SkillContent>
-        </SkillGrid>
+        </Marquee>
       </SkillWrapper>
     </SkillContainer>
   );

@@ -1,15 +1,9 @@
 import React from "react";
 import {
   FooterContainer,
-  FooterLinkitems,
-  FooterLinksContainer,
-  FooterLinksTitle,
-  FooterLinksWrapper,
   FooterWrapper,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialMediaLogo,
   WebsiteRights,
   SocialIcons,
   SocialIconsLink,
@@ -21,20 +15,16 @@ import {
   FaTwitter,
   FaGithub,
 } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
 
 const FooterSection = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
+ 
   return (
     <FooterContainer>
       <FooterWrapper>
         <SocialMedia>
           <SocialMediaWrap>
             <WebsiteRights>
-              Lordie © {new Date().getFullYear()} All rights reserved. Handfully
-              crafted using React ⚛️ with ❤️
+              Lordie © {new Date().getFullYear()} All rights reserved. Crafted with ❤️ using React ⚛️ 
             </WebsiteRights>
             <SocialIcons>
               <SocialIconsLink

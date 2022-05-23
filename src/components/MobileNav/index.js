@@ -31,18 +31,17 @@ const MobileNav = ({ navShow, toggle }) => {
             About Me
           </MobileNavLink>
           <MobileNavLink
-            to="portfolio"
-            to="portfolio"
+            to="projects"
             smooth={true}
             duration={500}
             spy={true}
             exact="true"
             offset={-80}
           >
-            Portfolio
+            Projects
           </MobileNavLink>
           <MobileNavLink
-            to="skill"
+            to="skills"
             smooth={true}
             duration={500}
             spy={true}
