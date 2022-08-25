@@ -1,5 +1,4 @@
 import React from "react";
-import Video from "../../video/pattern.mp4";
 import {
   HeroBg,
   HeroContainer,
@@ -14,9 +13,6 @@ import Olamide from "../../../src/images/image.jpeg";
 const HeroSection = () => {
   return (
     <HeroContainer id="about">
-      {/* <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg> */}
       <HeroContent>
         <HeroBlock2>
           <HeroImage src={Olamide} />
