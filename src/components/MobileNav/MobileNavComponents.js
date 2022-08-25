@@ -91,19 +91,18 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const NavBadge = styled.p` 
-display: flex;
-color: #fafafa;
-font-size: 10px;
-padding: 3px 4px;
-background: #8b0000;
-margin-top: -4px;
-margin-left: 7px;
-align-items: center;
-border-radius: 5px;
-font-weight: bold;
-
-`
+export const NavBadge = styled.p`
+  display: flex;
+  color: #fafafa;
+  font-size: 10px;
+  padding: 3px 4px;
+  background: #8b0000;
+  margin-top: -4px;
+  margin-left: 7px;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+`;
 
 export const MobileResumeRoute = styled.button`
   border-radius: 5px;
