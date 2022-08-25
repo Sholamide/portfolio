@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: #191716;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,11 +88,11 @@ export const HeroIntro = styled.h1`
 `;
 
 export const HeroImage = styled.img`
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   position: relative;
-  filter: drop-shadow(0 0 1.75rem #800080);
+  // filter: drop-shadow(0 0 1.75rem #800080);
   @media screen and (max-width: 768px) {
     width: 250px;
     height: 250px;
@@ -103,7 +103,7 @@ export const HeroP = styled.p`
   color: #f3f3f3;
   font-size: 18px;
   max-width: 1100px;
-  text-align: left;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;

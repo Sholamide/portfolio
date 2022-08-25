@@ -14,7 +14,7 @@ import {
 import { SiStyledcomponents, SiNodedotjs } from "react-icons/si";
 export const SkillContainer = styled.div`
   color: #f3f3f3;
-  background: #000;
+  background: #191716;
 
   @media screen and (max-width: 768px) {
     padding: 8px 24px;
@@ -60,72 +60,72 @@ export const SkillGrid = styled.div`
 `;
 
 export const SKillTypescript = styled(SiTypescript)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillReact = styled(SiReact)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillPython = styled(SiPython)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillNodeJS = styled(SiNodedotjs)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillSolidity = styled(SiSolidity)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillNextJS = styled(SiNextdotjs)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillStyledComponents = styled(SiStyledcomponents)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillTailwindCSS = styled(SiTailwindcss)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillDjango = styled(SiDjango)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 export const SKillJavascript = styled(SiJavascript)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 
 export const SKillFirebase = styled(SiFirebase)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 export const SKillMongoDB = styled(SiMongodb)`
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   color: #ffffff;
 `;
 

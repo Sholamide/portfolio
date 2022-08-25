@@ -20,7 +20,7 @@ const MobileNav = ({ navShow, toggle }) => {
       </Icon>
       <MobileNavWrapper>
         <MobileNavMenu>
-          <MobileNavLink
+          {/* <MobileNavLink
             to="about"
             smooth={true}
             duration={500}
@@ -62,14 +62,14 @@ const MobileNav = ({ navShow, toggle }) => {
             offset={-80}
           >
             Contact Me
-          </MobileNavLink>
+          </MobileNavLink> */}
           <SideBtnWrap>
-            <form
-              method="get"
-              action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1YlFyhsg5Re-5AQxlvlaaYCBEZi5DLU4f/view?usp=sharing"
             >
-              <MobileResumeRoute>DOWNLOAD CV</MobileResumeRoute>
-            </form>
+              <MobileResumeRoute>Download Resume</MobileResumeRoute>
+            </a>
           </SideBtnWrap>
         </MobileNavMenu>
       </MobileNavWrapper>

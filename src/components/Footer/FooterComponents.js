@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  background: #000;
+  background: #191716;
 `;
 
 export const FooterWrapper = styled.div`
@@ -106,7 +106,7 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   display: flex;
   align-items: center;
-  width: 240px;
+  width: 200px;
 `;
 
 export const SocialIconsLink = styled.a`

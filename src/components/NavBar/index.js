@@ -44,7 +44,7 @@ const NavBar = ({ toggle }) => {
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          <NavMenu>
+          {/* <NavMenu>
             <NavItems>
               <NavLinks
                 to="about"
@@ -56,8 +56,8 @@ const NavBar = ({ toggle }) => {
               >
                 About
               </NavLinks>
-            </NavItems>
-            <NavItems>
+            </NavItems> 
+             <NavItems>
               <NavLinks
                 to="projects"
                 smooth={true}
@@ -68,8 +68,8 @@ const NavBar = ({ toggle }) => {
               >
                 Projects
               </NavLinks>
-            </NavItems>
-            <NavItems>
+            </NavItems> 
+             <NavItems>
               <NavLinks
                 to="skills"
                 smooth={true}
@@ -80,13 +80,13 @@ const NavBar = ({ toggle }) => {
               >
                 Skills
               </NavLinks>
-            </NavItems>
-            {/* <NavItems>
+            </NavItems> 
+            <NavItems>
               <NavLinkR to="/cvbuilder">
                 CV Builder <NavBadge>NEW</NavBadge>
               </NavLinkR>
-            </NavItems> */}
-            <NavItems>
+            </NavItems> 
+             <NavItems>
               <NavLinks
                 to="contact"
                 smooth={true}
@@ -98,15 +98,15 @@ const NavBar = ({ toggle }) => {
                 Contact Me
               </NavLinks>
             </NavItems>
-          </NavMenu>
+          </NavMenu> */}
           <NavBtn>
-            <form
-              method="get"
-              action="https://drive.google.com/file/d/16gIv6LTPQfbes9vRgBCwcz6jXNLFK8BL/view?usp=sharing"
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1YlFyhsg5Re-5AQxlvlaaYCBEZi5DLU4f/view?usp=sharing"
             >
-              <NavResumeLink type="submit">RESUME</NavResumeLink>
-            </form>
-          </NavBtn>    
+              <NavResumeLink type="submit">Download Resume</NavResumeLink>
+            </a>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>

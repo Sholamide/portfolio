@@ -8,23 +8,27 @@ import {
   HeroP,
   VideoBg,
   HeroIntro,
+  HeroImage,
 } from "./HeroComponents";
+import Olamide from "../../../src/images/image.jpeg";
 const HeroSection = () => {
   return (
     <HeroContainer id="about">
-      <HeroBg>
+      {/* <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg>
+      </HeroBg> */}
       <HeroContent>
         <HeroBlock2>
-          <HeroIntro>Hi, I'm Olamide.</HeroIntro>
+          <HeroImage src={Olamide} />
+          <HeroIntro>Sholuade Olamide</HeroIntro>
           <HeroP>
-            I am a self-driven software developer with solid experience in
+            Software Developer
+            {/* I am a self-driven software developer with solid experience in
             software development. I always strive to outperform the task that
             I've been assigned to and I like challenges that question by
             abilities. In my free time, i play video and mobile games. I also
             like studying codes, and best-practice documentations to make me
-            better at software development.
+            better at software development. */}
           </HeroP>
         </HeroBlock2>
       </HeroContent>

@@ -17,30 +17,16 @@ import {
 } from "react-icons/fa";
 
 const FooterSection = () => {
- 
   return (
     <FooterContainer>
       <FooterWrapper>
         <SocialMedia>
           <SocialMediaWrap>
             <WebsiteRights>
-              Lordie © {new Date().getFullYear()} All rights reserved. Crafted with ❤️ using React ⚛️ 
+              Lordie © {new Date().getFullYear()} All rights reserved. Crafted
+              with ❤️ using React ⚛️
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconsLink
-                href="https://web.facebook.com/olarotz"
-                target="_blank"
-                aria-label="Facebook"
-              >
-                <FaFacebook />
-              </SocialIconsLink>
-              <SocialIconsLink
-                href="https://www.instagram.com/o_l_a_m_i_d_e/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <FaInstagram />
-              </SocialIconsLink>
               <SocialIconsLink
                 href="https://github.com/Sholamide"
                 target="_blank"

@@ -20,9 +20,9 @@ const Home = () => {
         <MobileNav navShow={navShow} toggle={onToggeNav} />
         <NavBar toggle={onToggeNav} />
         <HeroSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
         <SkillSection />
-        <ContactSection />
+        {/* <ContactSection /> */}
         <FooterSection />
       </FormspreeProvider>
     </>

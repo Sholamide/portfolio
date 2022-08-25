@@ -26,9 +26,6 @@ const SkillSection = () => {
     <SkillContainer id="skills">
       <SkillWrapper>
         <SkillHeader>Skills</SkillHeader>
-        <SkillParagraph>
-          You will find below, the stacks i have practiced with so far.
-        </SkillParagraph>
         <Marquee pauseOnHover gradient={false}>
           <SkillContent>
             <SKillReact />
